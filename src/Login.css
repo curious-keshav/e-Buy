@@ -1,0 +1,154 @@
+.login__background {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://media3.giphy.com/media/94P1LEMyuVEeA/giphy.webp?cid=ecf05e47hwhd3e4y05okaotwhmv054tjs0lmztu88pbnycce&rid=giphy.webp&ct=g");
+    object-fit: cover;
+    height: 700px;
+    max-height: 700px;
+}
+
+.login__logobackground {
+    background-color: black;
+    height: 105px;
+    width: 250px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    /* background-color: black; */
+    /* border-bottom: 1px solid lightgray; */
+    border: 2px solid lightgray;
+    /* border: 1px solid lightgray; */
+    margin-bottom: 30px;
+}
+
+.login__ebuylogo {
+    height: 80px;
+    object-fit: contain;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.login__container {
+
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.17);
+    border: 2px solid #FFFFFF;
+    backdrop-filter: blur(2px);
+    border-radius: 35px;
+    /* -webkit-box-shadow: 6px 6px 29px #a9afbf, -6px -6px 29px #f9ffff;
+    box-shadow: 6px 6px 29px #a9afbf, -6px -6px 29px #f9ffff; */
+
+
+}
+
+.login__container__title {
+    color: white;
+    font-size: large;
+    margin-left: 40px;
+    margin-right: 50%;
+}
+
+.login__input {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    width: 350px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: black;
+
+
+}
+
+
+.login__btn1 {
+    margin-top: 20px;
+    width: 350px;
+    margin-left: 25px;
+    height: 60px;
+    margin-bottom: 10px;
+    background: #014898;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #B3D9FB;
+    
+}
+.login__btn1:hover{
+    background: #0277fd;
+    /* transition:cubic-bezier(0.215, 0.610, 0.355, 1) */
+    transition:cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.login__btn2 {
+    margin-top: 20px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-bottom: 10px;
+    background: #009DFE;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #B3D9FB;
+    margin-bottom: 20px;
+}
+.login__btn2:hover{
+    background: #6bc6ff;
+    transition:cubic-bezier(0.215, 0.610, 0.355, 1);
+    color:black;
+}
+
+.login__design {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login__design__line {
+    width: 160px;
+    border-top: 1px solid #786964;
+}
+
+.login__design__or {
+    font-weight: 600;
+    font-size: small;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login__forget {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.5px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    color: #FFFFFF;
+    font-weight: 100;
+}

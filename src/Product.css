@@ -1,0 +1,114 @@
+.product{
+    display:flex;
+
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    /* background: #252025; */
+    background: black;
+    /* -webkit-box-shadow: 13px 13px 24px #161616, -13px -13px 24px #2c2c2c;
+    box-shadow: 13px 13px 24px #161616, -13px -13px 24px #2c2c2c; */
+    flex-direction: column;
+    z-index: 2;
+    /* align-items: center; */
+    justify-content: flex-end;
+    margin:35px;
+    padding: 20px;
+    width:100%;
+    max-height: 350px;
+    max-width: 250px;
+
+
+    background: rgba( 0, 0, 0, 0.75 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 17.5px );
+-webkit-backdrop-filter: blur( 17.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+}
+
+.product:hover{
+ 
+background: #000000;
+-webkit-box-shadow: 5px 5px 16px #000000, -5px -5px 16px #000000;
+box-shadow: 5px 5px 16px #000000, -5px -5px 16px #000000; 
+}
+
+
+.product__img{
+    /* max-height:200px; */
+    /* height: 220px; */
+    width: 250px;
+    /* margin-left:-50px; */
+    margin-top:-90px;
+    /* margin-bottom: -10px; */
+    margin-bottom: 15px;
+    z-index: 1;
+    transition: transform .7s ease-in-out;
+}
+
+.product__img:hover{
+    transform: rotate(-35deg);
+    /* margin-bottom:40px; */
+    /* width: 200px; */
+    /* height: 100px; */
+}
+
+.product__info{
+    color:white;
+    height: 70px;
+    margin-bottom: -10px;
+}
+
+
+.product__rating{
+    display: flex;
+    flex-direction: row;
+}
+
+.product__button {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 10px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+    padding: 1em;
+    margin-top:20px;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+
+  }
+  
+  .product__button .text {
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, #4568dc, #b06ab3);
+  }
+  
+  .product__button:after {
+    content: "";
+    border-radius: 18px;
+    position: absolute;
+    margin: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #212121;
+  }
+  
+  .product__button:hover {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+    box-shadow: 0 12px 24px rgba(128, 128, 128, 0.1);
+  }
+  
+  .product__button:hover .text {
+    background-image: linear-gradient(-45deg, #4568dc, #b06ab3);
+  }
